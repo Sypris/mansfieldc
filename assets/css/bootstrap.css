@@ -6801,6 +6801,7 @@ button.close {
 }
 
 .CenterCircle {
+  top:30px;
    height:400px;
    width:200px;
    border-radius: 90px 0px 0 90px;
