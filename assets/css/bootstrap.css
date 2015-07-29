@@ -6798,14 +6798,14 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
 
-  .CenterCircle {
-     height:400px;
-     width:200px;
-     border-radius: 90px 0px 0 90px;
-     -moz-border-radius: 90px 90px 0 0;
-     -webkit-border-radius: 200px 0px 0px 200px;
-     background-color:#fff;
-  }
+.CenterCircle {
+   height:400px;
+   width:200px;
+   border-radius: 90px 0px 0 90px;
+   -moz-border-radius: 90px 90px 0 0;
+   -webkit-border-radius: 200px 0px 0px 200px;
+   background-color:#fff;
 }
 /*# sourceMappingURL=bootstrap.css.map */
