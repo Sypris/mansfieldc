@@ -1082,7 +1082,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -4544,6 +4544,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #454545;
   background-color: rgba(255, 255, 255, 0.07);
   border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+  top:154px;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -6823,6 +6824,23 @@ button.close {
     background-image: -moz-linear-gradient(top, rgba(17,2,49,0.75), rgba(17,2,49,0)),-moz-linear-gradient(bottom left, #eb6670, #f67f7c, #f9ac97, #f1b79f, #e1bea7, #c3bcb0, #8aabb2, #4e95b2, #2588b6);
     background-image: -o-linear-gradient(120deg, rgba(192, 192, 192, 0.75), rgba(17,2,49,0)),-o-linear-gradient(top, rgba(17,2,49,0.75), rgba(17,2,49,0)),-o-linear-gradient(45deg, rgb(255, 7, 0), rgb(67, 202, 242));
     background-image: linear-gradient(top, rgba(17,2,49,0.75),rgba(17,2,49,0)),linear-gradient(bottom left, #eb6670,#f67f7c,#f9ac97,#f1b79f,#e1bea7,#c3bcb0,#8aabb2,#4e95b2,#2588b6);
-
 }
+
+#title-header {
+    padding-top: 200px;
+    font-size: 82px;
+    font-weight: 100;
+    letter-spacing: -5px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.73);
+    color: white;
+    text-align: center;
+}
+
+.invert-center {
+  color:white;
+  text-align: center;
+  letter-spacing: 25px;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.27);
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
