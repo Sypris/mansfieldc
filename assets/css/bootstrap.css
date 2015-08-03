@@ -6845,7 +6845,13 @@ button.close {
     color: white;
     text-align: center;
 }
+.invert-center a {
+  color:white;
+}
 
+.invert-center a:hover {
+  color:rgb(210, 210, 210);
+}
 .invert-center {
   color:white;
   text-align: center;
